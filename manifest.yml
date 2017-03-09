@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: sandisk-app
+  host: sandisk-app
+  disk_quota: 1024M
+  services:
+  - Auto-Scaling-cw
