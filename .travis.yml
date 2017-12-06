@@ -8,3 +8,7 @@ deploy:
   space: $BLUEMIX_SPACE
   on:
     branch: master
+  language: node_js
+    node_js:
+      - "iojs"
+      - "8"
